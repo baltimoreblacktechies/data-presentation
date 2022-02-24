@@ -22,10 +22,10 @@ parallaxBackgroundImage: https://avatars0.githubusercontent.com/u/44561649?s=600
 ### https://baltimoreblacktechies.github.io/data-presentation/
 
 ## Quick poll
-<iframe style="height:100%;width: 100%" src="https://strawpoll.com/kawbvv3v8" frameborder="0" allowfullscreen></iframe>
+<iframe width="620" height="572" src="https://strawpoll.com/embed/kawbvv3v8" style="width: 100%; height: 572px;" frameborder="0" allowfullscreen></iframe>
 
 ## Rules!
-<iframe style="height:100%;width: 100%" src="https://docs.google.com/document/d/1pf2aHW-angG7tnuUI15q7ZUwIdjcEdixlu0AsN014ag/edit" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vShQ85vrtmfL3nEhm40NN2qEA2RUd3p0W3DBG7UQugCQFkHB6dAqI4beVVSF81GDE3S5HZ1rm3ru5P9/pub?embedded=true"></iframe>
 
 ## Links to great Tableau works
  - https://public.tableau.com/en-us/s/community-equity-task-force-gallery
