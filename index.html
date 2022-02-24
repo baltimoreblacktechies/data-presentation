@@ -1,40 +1,426 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Baltimore Black Techies">
+  <title>Data Viz Competition Kickoff</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./dist/reset.css">
+  <link rel="stylesheet" href="./dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="./dist/theme/night.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
 
-		<title>reveal.js</title>
+<section id="title-slide">
+  <h1 class="title">Data Viz Competition Kickoff</h1>
+  <p class="author">Baltimore Black Techies</p>
+  <p class="date">Dylan Madisetti (2022-2-24)</p>
+</section>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+<section id="welcome" class="slide level2">
+<h2>Welcome!</h2>
+<div class="columns">
+<div class="column">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+</div><div class="column">
+<figure>
+<img data-src="http://bmoreblack.tech/static/bbtechies-e7ec37cfb10feb77daf9aefcb39f7390.jpg" alt="We Bmore Black Techies" /><figcaption aria-hidden="true">We Bmore Black Techies</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="quick-poll" class="slide level2">
+<h2>Quick poll</h2>
+<iframe style="height:100%;width: 100%" src="https://strawpoll.com/embed/3dz3d9ha" frameborder="0" allowfullscreen>
+</iframe>
+</section>
+<section id="quick-poll-1" class="slide level2">
+<h2>Quick poll</h2>
+<iframe style="height:100%;width: 100%" src="https://strawpoll.com/embed/6gbd9355" frameborder="0" allowfullscreen>
+</iframe>
+</section>
+<section id="so-what-is-the-web" class="slide level2">
+<h2>So what is the web</h2>
+<figure>
+<img data-src="https://miro.medium.com/max/900/1*q99J7XLYVWgOt69E8IuXqw.gif" alt="Beep boop" /><figcaption aria-hidden="true">Beep boop</figcaption>
+</figure>
+</section>
+<section id="html" class="slide level2">
+<h2>HTML</h2>
+<div class="columns">
+<div class="column">
+<p>HTML is the ‘Markup Language’, that positions and formats text. <strong>Hyper-text Markup Language</strong></p>
+<script src="https://gist.github.com/dmadisetti/0ea9092cf6f33417d9a898a3996fd0ca.js"></script>
+</div><div class="column">
+<figure>
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML 5" /><figcaption aria-hidden="true">HTML 5</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="html-1" class="slide level2">
+<h2>HTML</h2>
+<div class="columns">
+<div class="column">
+<script src="https://gist.github.com/dmadisetti/0ea9092cf6f33417d9a898a3996fd0ca.js"></script>
+</div><div class="column">
+<p>Examples of elements in HTML</p>
+<ul>
+<li>ul tags (un-ordered lists)</li>
+<li>li tags (list items)</li>
+<li>h1 tags (headers)</li>
+<li>p tags (paragraphs)</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="html-devtools" class="slide level2">
+<h2>HTML + DevTools</h2>
+<iframe style="width: 100%;height:100%" scrolling="no" title="Super-flower-css-super-thing." src="https://codepen.io/maxakohler/embed/ltFyG?height=265&amp;theme-id=dark&amp;default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true" loading="lazy">
+See the Pen <a href='https://codepen.io/maxakohler/pen/ltFyG'>Super-flower-css-super-thing.</a> by Max Kohler (<a href='https://codepen.io/maxakohler'><span class="citation" data-cites="maxakohler">@maxakohler</span></a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</section>
+<section id="html-2" class="slide level2">
+<h2>HTML</h2>
+<iframe style="height:100%;width: 100%" src="https://strawpoll.com/embed/rkhygasb" frameborder="0" allowfullscreen>
+</iframe>
+</section>
+<section id="html-3" class="slide level2">
+<h2>HTML</h2>
+<p><a href="https://imgflip.com/i/3zcfqx"><img src="https://i.imgflip.com/3zcfqx.jpg" title="made at imgflip.com"/></a></p>
+</section>
+<section id="javascript" class="slide level2">
+<h2>Javascript</h2>
+<div class="columns">
+<div class="column">
+<p>JavaScript is a programming language that allows you to implement complex things on web pages.</p>
+<ul>
+<li>displaying timely content updates</li>
+<li>interactive maps</li>
+<li>animated 2D/3D graphics</li>
+<li>scrolling video jukeboxes</li>
+</ul>
+</div><div class="column">
+<figure>
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Javascript" /><figcaption aria-hidden="true">Javascript</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="javascript-variables" class="slide level2">
+<h2>Javascript + Variables</h2>
+<div class="columns">
+<div class="column">
+<p>Variables are basically containers for values (such as numbers, or strings of text).</p>
+<ul>
+<li>let x = 0;</li>
+<li>var y = 2;</li>
+<li>var z = “my name is Chef.”;</li>
+<li>y = y + 1;</li>
+</ul>
+<p>We can then use the variables in conditional statements.</p>
+<script src="https://gist.github.com/dmadisetti/fe7996d1e448b7613ee7804e0486bd60.js"></script>
+</div><div class="column">
+<iframe style="width:100%; height:500px" src="dist/index.html">
+</iframe>
+</div>
+</div>
+</section>
+<section id="javascript-functions" class="slide level2">
+<h2>Javascript + Functions</h2>
+<div class="columns">
+<div class="column">
+<p>Functions are reusable blocks of code that you can write once and run again and again, saving the need to keep repeating code all the time. This is really useful</p>
+<p>Remember math class?</p>
+<script src="https://gist.github.com/dmadisetti/372287786ee6e3a5fd6da7c56190d821.js"></script>
+<p>We can reuse this to make a plot.</p>
+<p><img src="https://study.com/cimages/multimages/16/6de5623a-2954-4aa8-90c6-fe162fbe1352_graph_1.jpg"></p>
+</div><div class="column">
+<iframe style="width:100%; height:500px" src="dist/index.html">
+</iframe>
+</div>
+</div>
+</section>
+<section id="javascript-functions-as-variables" class="slide level2">
+<h2>Javascript + Functions as Variables</h2>
+<div class="columns">
+<div class="column">
+<iframe src="https://giphy.com/embed/EldfH1VJdbrwY" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen>
+</iframe>
+</div><div class="column">
+<iframe style="width:100%; height:500px" src="dist/index.html">
+</iframe>
+</div>
+</div>
+</section>
+<section id="javascript-functions-as-variables-1" class="slide level2">
+<h2>Javascript + Functions as Variables</h2>
+<div class="columns">
+<div class="column">
+<script src="https://gist.github.com/dmadisetti/b798146d9c883081238bf9cd92dd2569.js"></script>
+</div><div class="column">
+<iframe style="width:100%; height:500px" src="dist/index.html">
+</iframe>
+</div>
+</div>
+</section>
+<section id="javascript-devtools-html-objects" class="slide level2">
+<h2>Javascript + Devtools + HTML Objects</h2>
+<p>The content is in the page. Pres F12 to open up inspector tools.</p>
+<h1 id="myButton" style="margin: 30px 0 0 0; text-align:center">
+Click me
+</h1>
+<audio id="myAudio">
+<source src="https://www.myinstants.com/media/sounds/getfvid_324009651860498_128-audiotrimmer.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</source>
+</audio>
+<script>
+var audio = document.getElementById("myAudio");
+var button = document.getElementById("myButton");
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+function playAudio() {
+  audio.play();
+}
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+button.onclick = playAudio;
+</script>
+</section>
+<section id="how-this-might-feel" class="slide level2">
+<h2>How this might feel</h2>
+<figure>
+<img data-src="https://miro.medium.com/max/400/1*Hx9BeFBFE48jlVvs4-uVLA.jpeg" alt="bruh." /><figcaption aria-hidden="true">bruh.</figcaption>
+</figure>
+</section>
+<section id="editframe" class="slide level2">
+<h2>Editframe</h2>
+<p>Made this in College with some friends for highschool out reach. Just keeping up the vibes.</p>
+<iframe style="width:100%; height:100%" src="https://www.carolinaignites.org">
+</iframe>
+</section>
+<section id="how-to-use-this" class="slide level2">
+<h2>How to use this?</h2>
+<p><a href="https://chris.carolinaignites.org/learn/docs/GameFrameDocumentation_1.pdf">Here’s some documentation</a> + <a href="https://editor.carolinaignites.org/#qorW0AU2bcDA440H-0">let’s look at a game</a></p>
+<iframe style="width:100%; height:100%" src="https://chris.carolinaignites.org/learn/docs/GameFrameDocumentation_1.pdf">
+</iframe>
+</section>
+<section id="challenge-1" class="slide level2">
+<h2>Challenge #1</h2>
+<p><a href="https://editor.carolinaignites.org/#0BNYt6lRIvWN6K7p-0">link</a></p>
+<iframe style="width:100%; height:100%" src="https://editor.carolinaignites.org/#0BNYt6lRIvWN6K7p-0">
+</iframe>
+</section>
+<section id="challenge-2" class="slide level2">
+<h2>Challenge #2</h2>
+<p><a href="https://editor.carolinaignites.org/#5xb7TNAIGZVKJ6mc-0">link</a></p>
+<iframe style="width:100%; height:100%" src="https://editor.carolinaignites.org/#5xb7TNAIGZVKJ6mc-0">
+</iframe>
+</section>
+<section id="challenge-3" class="slide level2">
+<h2>Challenge #3</h2>
+<p><a href="https://editor.carolinaignites.org/#jDNinxNlWUExPnTC-0">link</a></p>
+<iframe style="width:100%; height:100%" src="https://editor.carolinaignites.org/#jDNinxNlWUExPnTC-0">
+</iframe>
+</section>
+<section id="solutions" class="slide level2">
+<h2>Solutions</h2>
+<ul>
+<li>Challenge 1: https://editor.carolinaignites.org/#idYpE5VsC3LfyF8k-0</li>
+<li>Challenge 2: https://editor.carolinaignites.org/#wM8qusIVq6fLgKbz-0</li>
+<li>Challenge 3: https://editor.carolinaignites.org/#bOh6FhTONZLQ6Wl6-0</li>
+</ul>
+</section>
+<section id="now-go-make-yall-games" class="slide level2">
+<h2>Now go make y’all games?</h2>
+<figure>
+<img data-src="https://i.imgflip.com/17hav1.jpg" alt="Link back to the editor" /><figcaption aria-hidden="true">Link back to the <a href="https://editor.carolinaignites.org">editor</a></figcaption>
+</figure>
+</section>
+<section id="fill-out-the-form-though" class="slide level2">
+<h2>Fill out the form though</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScqzFCJV5WAlL3UYuspzNNyF2pzYBdooW-PnjCRNTM5Wz__eA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">
+Loading…
+</iframe>
+</section>
+    </div>
+  </div>
+
+  <script src="./dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="./plugin/notes/notes.js"></script>
+  <script src="./plugin/search/search.js"></script>
+  <script src="./plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: false,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // Parallax background image
+        parallaxBackgroundImage: 'https://avatars0.githubusercontent.com/u/44561649?s=600&amp;v=4', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
 </html>
