@@ -18,7 +18,8 @@ parallaxBackgroundImage: https://avatars0.githubusercontent.com/u/44561649?s=600
 ::::::::::::::
 ## Welcome!
 
-![For your reference](https://baltimoreblacktechies.github.io/data-presentation/)
+![For your reference](https://baltimoreblacktechies.github.io/data-presentation/qr.png)
+
 ### https://baltimoreblacktechies.github.io/data-presentation/
 
 ## Quick poll
