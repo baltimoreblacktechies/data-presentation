@@ -28,6 +28,10 @@ parallaxBackgroundImage: https://avatars0.githubusercontent.com/u/44561649?s=600
 ## Rules!
 <iframe src="https://docs.google.com/document/d/e/2PACX-1vShQ85vrtmfL3nEhm40NN2qEA2RUd3p0W3DBG7UQugCQFkHB6dAqI4beVVSF81GDE3S5HZ1rm3ru5P9/pub?embedded=true"></iframe>
 
+## Submission
+
+https://docs.google.com/forms/d/e/1FAIpQLSfme7WHVF8vfT9TcqaL0Y3ojJOHLrwQvdTRgWPlsQaT-Bvycg/viewform?usp=sf_link
+
 ## Links to great Tableau works
  - https://public.tableau.com/en-us/s/community-equity-task-force-gallery
  - https://public.tableau.com/app/profile/eve.thomas/viz/AHISTORYOFNOTABLEBLACKACHIEVEMENTS1738-2019/NotableAchievements
